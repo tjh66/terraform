@@ -1,0 +1,47 @@
+variable "ecc_mssql_name"{
+type = string
+description = "Name of Existing MSSQL Server"
+}
+variable "ecc_mssql_rg_name"{
+type = string
+description = "Name of Existing MSSQL Server Resource Group"
+}
+variable "ecc_mssql_db"{
+type = string
+description = "Database Name"
+default = "UK South"
+}
+variable "ecc_mssql_db_collation"{
+type = string
+description = "SQL server db collation"
+default = "SQL_Latin1_General_CP1_CI_AS"
+}
+variable "ecc_mssql_maxsizedb"{
+type = string
+description = "Maximum Database Size"
+}
+variable "ecc_mssql_readscale"{
+type = string
+description = "MSSQL Read Scale default is false"
+default = "false"
+}
+variable "ecc_mssql_sku"{
+type = string
+description = "MSSQL SKU"
+default = "GP_S_Gen5_2"
+}
+variable "ecc_mssql_zoneredundant"{
+type = string
+description = "Database Redundancy default is false"
+default = "false"
+}
+variable "ecc_mssql_mincapacity"{
+type = string
+description = "Minimum Capacity 0.5"
+default = "0.5"
+}
+variable "autopause"{
+type = string
+description = "autopause default set to 60"
+default = "60"
+}
