@@ -18,3 +18,8 @@ variable "private_connection_resource_id"{
 type = string
 description = "Resource Id of the resource that requires the private endpoint."
 }
+
+
+
+
+

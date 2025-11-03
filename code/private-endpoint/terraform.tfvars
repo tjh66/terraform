@@ -1,0 +1,5 @@
+ecc_rg_name = "storage"
+ecc_subresource_names = "file"
+ecc_azurerm_resource_name = "stac0988erty44"
+ecc_azurerm_private_endpoint_subnet = "/subscriptions/0823cfa7-7814-434b-abf9-655be3324067/resourceGroups/production-vnet/providers/Microsoft.Network/virtualNetworks/vnetuks003/subnets/vnetuks003_10.57.0.128_27"
+private_connection_resource_id = "/subscriptions/0823cfa7-7814-434b-abf9-655be3324067/resourceGroups/storage/providers/Microsoft.Storage/storageAccounts/stac0988erty44"
