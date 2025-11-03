@@ -1,0 +1,5 @@
+ecc_rg_name="scpp"
+ecc_rg_loc="uksouth"
+ecc_sqlserver_name="dbsvr001021066789"
+ecc_sqlserver_admin="Azuresqlserversupport"
+ecc_sqlserver_pw="ccvvrrRtyuiok0091"
